@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class AlMainClass implements DemoFace, DemoFace2{
 
@@ -44,5 +45,28 @@ public class AlMainClass implements DemoFace, DemoFace2{
         DemoFace.staticDemo();
         AlMainClass al = new AlMainClass();
         al.defdemo();
+
+//        PREDICATE
+//        it is a functional Interface
+//        want to use one or multiple boolean conditions? use predicates
+//        predicate FI has one method public abstract boolean test()
+        String str[] = {"ram", "laxman", "raghuveer"};
+//        predicate fucntion to get names containing length>3
+//        ***always specify type of input
+        Predicate<String> p1 = s -> s.length() > 3;
+        for (String str1 : str) {
+            if (p1.test(str1)) {
+                System.out.println("predicate function to get all names having length>3" + str1);
+            }
+        }
+//        combining two predicates
+//        predicate to check if names start with 'r'
+        Predicate<String> p2 = s1 -> s1.charAt(0) == 'r';
+        for (String st : str) {
+//      we can use 'AND' 'OR','NEGATE  interchangebly
+
+            if (p1.and(p2).test(st))
+                System.out.println("names having length>3 and starts with 'r'" + st);
+        }
     }
 }
