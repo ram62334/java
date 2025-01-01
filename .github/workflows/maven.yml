@@ -27,8 +27,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Upload JAR as Artifact
-      uses: actions/upload-artifact@v4
+    - name: Upload JAR as artifact
+      uses: actions/upload-artifact@v2  # Upload the JAR file as an artifact
       with:
-        name: my-app-jar
-        path: C:/Users/ramya/IdeaProjects/artifacts/myJar.jar
+        name: my-app-jar  # Name the artifact (will appear in GitHub Actions UI)
+        path: C:/Users/ramya/IdeaProjects/artifacts/myJar.jar  # Path to the generated JAR file (for Maven, it's in the target directory)
