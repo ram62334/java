@@ -1,10 +1,10 @@
 package org.DSA.List.SingleLL;
 
-public class Node {
-    int data;
-    Node next;
+public class Node<T extends Comparable<T>> {
+    T data;
+    public Node<T> next;
 
-    public Node(int data) {
+    public Node(T data) {
         this.data = data;
     }
 }

@@ -1,4 +1,4 @@
-package Arrays;
+package org.DSA.Arrays;
 
 public class MinDisnctSubArray {
     public static void main(String[] args) {
