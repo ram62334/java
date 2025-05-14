@@ -2,9 +2,9 @@ package org.Java8;
 
 public class Recurssion {
     public static void main(String[] args) {
-        System.out.println(findFactorial(3));
+     //   System.out.println(findFactorial(3));
 
-        System.out.println(fibNum(6));
+        System.out.println(fibNum(7));
     }
 //    to find factorial of a number
     private static int findFactorial(int i) {

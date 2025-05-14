@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a64d2871-60de-4ac0-932e-1d3566158510" name="Changes" comment="add maven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Arrays/SearchInRotated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Arrays/SlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sorting/InsertionSort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -46,8 +42,11 @@
     &quot;accountId&quot;: &quot;d8ebab3f-42d1-4a3a-8438-11bbe7ece7c1&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.1/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -62,31 +61,52 @@
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
     "Application.AlMainClass.executor": "Run",
+    "Application.BestSum.executor": "Debug",
     "Application.BubbleSort.executor": "Debug",
     "Application.CLient.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
     "Application.FindCycleInLinkedList.executor": "Run",
     "Application.FindLargeContainer.executor": "Run",
-    "Application.FindLargestStringLength.executor": "Run",
-    "Application.FindPalendrome.executor": "Run",
+    "Application.FindLargestStringLength.executor": "Debug",
+    "Application.FindNthElementFromLast.executor": "Run",
+    "Application.FindPalendrome.executor": "Debug",
+    "Application.FindSumOfOddNum.executor": "Run",
     "Application.FindTriplets.executor": "Run",
+    "Application.Grid.executor": "Debug",
+    "Application.HashMain.executor": "Debug",
+    "Application.HowSum.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
     "Application.LargestSubArraySum.executor": "Run",
+    "Application.ListQueueMain.executor": "Run",
     "Application.LlMainClass.executor": "Debug",
+    "Application.LongSubString.executor": "Debug",
     "Application.MainClass.executor": "Run",
     "Application.MaxSumOfSubSet.executor": "Run",
+    "Application.MergeTwoSortedArrays.executor": "Debug",
     "Application.MergeTwoSortedList.executor": "Run",
     "Application.NextlargestNumber.executor": "Run",
     "Application.PrefixSum.executor": "Run",
-    "Application.Problems.executor": "Debug",
+    "Application.PrintSpiral.executor": "Debug",
+    "Application.Problems.executor": "Run",
+    "Application.ProductExceptSelf.executor": "Debug",
     "Application.QueueMain.executor": "Run",
     "Application.RangeSumQuery.executor": "Debug",
     "Application.Recurssion.executor": "Run",
     "Application.SearchInRotated.executor": "Run",
     "Application.SelectionSort.executor": "Debug",
+    "Application.SixPalendrome.executor": "Run",
     "Application.StackMain.executor": "Run",
+    "Application.TargetSum.executor": "Debug",
+    "Application.TargetSumOrNearest.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ThreadTest.executor": "Run",
+    "Application.TreeMain.executor": "Run",
+    "Application.TwoSum.executor": "Debug",
     "Application.Youtube.executor": "Run",
+    "Application.canFormWord.executor": "Run",
+    "Application.findPairsWithTargetSum.executor": "Debug",
+    "Application.findPosOfElement.executor": "Run",
     "Application.org.DSA.Arrays.LargestSubArraySum.executor": "Run",
     "Application.org.DesignPatterns.AbstractFactoryPattern.Client.executor": "Run",
     "Application.org.DesignPatterns.AdapterPattern.Client.executor": "Run",
@@ -115,13 +135,13 @@
       <recent name="org.DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LlMainClass">
-    <configuration name="FindTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Patterns.TwoPointers.FindTriplets" />
+  <component name="RunManager" selected="Application.TargetSumOrNearest">
+    <configuration name="LongSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Test.LongSubString" />
       <module name="DSA-copy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Patterns.TwoPointers.*" />
+          <option name="PATTERN" value="org.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.DSA.List.SingleLL.LlMainClass" />
+    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Test.ProductExceptSelf" />
       <module name="DSA-copy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.DSA.List.SingleLL.*" />
+          <option name="PATTERN" value="org.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumOfSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Patterns.SlidingWindowPattern.MaxSumOfSubSet" />
+    <configuration name="SixPalendrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Test.SixPalendrome" />
       <module name="DSA-copy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Patterns.SlidingWindowPattern.*" />
+          <option name="PATTERN" value="org.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextlargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Patterns.MonotonicStack.NextlargestNumber" />
+    <configuration name="TargetSumOrNearest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Patterns.TargetSumOrNearest" />
       <module name="DSA-copy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Patterns.MonotonicStack.*" />
+          <option name="PATTERN" value="org.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.DSA.Stack.StackMain" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Test.TwoSum" />
       <module name="DSA-copy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.DSA.Stack.*" />
+          <option name="PATTERN" value="org.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LlMainClass" />
-        <item itemvalue="Application.FindTriplets" />
-        <item itemvalue="Application.MaxSumOfSubSet" />
-        <item itemvalue="Application.NextlargestNumber" />
-        <item itemvalue="Application.StackMain" />
+        <item itemvalue="Application.TargetSumOrNearest" />
+        <item itemvalue="Application.SixPalendrome" />
+        <item itemvalue="Application.LongSubString" />
+        <item itemvalue="Application.ProductExceptSelf" />
+        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -374,12 +394,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Test/Problems.java</url>
-          <line>10</line>
+          <line>13</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/Test/Problems.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -398,11 +418,6 @@
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/MonotonicStack/NextlargestNumber.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/DSA/List/SingleLL/LlMainClass.java</url>
           <line>151</line>
           <option name="timeStamp" value="66" />
@@ -411,6 +426,79 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/DSA/List/SingleLL/LlMainClass.java</url>
           <line>152</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/Stack/StackMain.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/Queue/ListQueue/ListQueueMain.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/DP/TargetSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/DP/HowSum.java</url>
+          <line>9</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/DP/Grid.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/DSA/Trees/TreeMain.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/Matrix/findPosOfElement.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/FastAndSlowPointers/FindPalendrome.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/PrefixSumPattern/RangeSumQuery.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/SlidingWindowPattern/FindLargestStringLength.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/findPairsWithTargetSum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Test/TwoSum.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Test/ProductExceptSelf.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Patterns/TargetSumOrNearest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

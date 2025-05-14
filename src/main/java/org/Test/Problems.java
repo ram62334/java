@@ -1,7 +1,10 @@
 package org.Test;
 
 public class Problems {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        System.out.print(1+2+"3");
+        System.out.println();
 //                String s = "elephant-tiger-lion-";
 //
 //                // Split the string using "-" as the delimiter
@@ -16,8 +19,8 @@ public class Problems {
 //                // Print the result
 //                System.out.println("Last animal: " + lastAnimal);
 //                System.out.println("Length of last animal: " + length);
-        int arr[] = {1,2,3,2};
-        int result[] = findMissing(arr);
+//        int arr[] = {1,2,3,2};
+//        int result[] = findMissing(arr);
             }
 
     private static int[] findMissing(int[] arr) {

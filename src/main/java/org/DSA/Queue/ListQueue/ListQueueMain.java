@@ -2,19 +2,21 @@ package org.DSA.Queue.ListQueue;
 
 public class ListQueueMain {
     public static void main(String[] args) {
-        ListQueue q = new ListQueue();
+        QueueFunctions qf = new QueueFunctions();
 
-        q.add(1);
-        q.add(2);
-        q.add(3);
-      //  System.out.println(q.peek());
-        System.out.println(q.remove());
-        System.out.println(q.remove());
-        System.out.println(q.remove());
-        System.out.println(q.remove());
-        System.out.println(q.peek());
-        q.add(4);
-        q.add(5);
-        System.out.println(q.peek());
+//        qf.enqueue(1);
+//        qf.enqueue(2);
+//        qf.enqueue(3);
+//        qf.display();
+//        qf.dequeue();
+//        qf.display();
+//        qf.dequeue();
+//        qf.display();
+//
+//        System.out.println(qf.length);
+        String[] r=QueueFunctions.printBinary(10);
+        for (String re:r){
+            System.out.print(re+" ");
+        }
     }
 }

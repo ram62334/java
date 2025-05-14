@@ -12,12 +12,12 @@ public class NextlargestNumber {
                 arr[i]=-1;
             }
             else {
-                while(!sf.checkEmpty()&&arr[i]>sf.peek()){
+                while(!sf.checkEmpty()&&arr[i]>(Integer)sf.peek()){
                     sf.pop();
                 }
                 if (!sf.checkEmpty()) {
                     int j=arr[i];
-                    arr[i] = sf.peek();
+                    arr[i] = (Integer) sf.peek();
                     sf.push(j);
                 }
                 else {
